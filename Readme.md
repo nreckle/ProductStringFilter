@@ -1,5 +1,10 @@
-### 处理设置原生设置字符串
+# Provide the ablity to filter AOSP modules with multi PRODUCT_TYPE String
 
-设置源码中，为了试用不同的机器，试用 product 区分各个产品说明，比如 最常见的 product tablet 等，但是在 Android studio 中就会因为字符串而编译不通过！
+When using AOSP module with Android Studio, like Setting module, multi products strings with the same id, Developers cannot build successfully with Android Studio.
+This project will help you filter the unnecessary product strings.
 
-通过 Java 工程，处理过滤不需要的 product，使用方法，配置 config.java 中的字符串路径以及过滤的product，然后运行工程即可！
+## How to use
+
+1. Config the needed PRODUCT_TYPE in Config.java;
+2. Config the origin ROOT and output ROOT;
+3. Build the project, then use the ouput ROOT res/.
