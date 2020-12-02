@@ -1,4 +1,4 @@
-# Provide the ablity to filter AOSP modules with multi PRODUCT_TYPE String
+# Provide The Ablity To Filter AOSP Modules With Multi PRODUCT_TYPE Strings
 
 When using AOSP module with Android Studio, like Setting module, multi products strings with the same id, Developers cannot build successfully with Android Studio.
 This project will help you filter the unnecessary product strings.
